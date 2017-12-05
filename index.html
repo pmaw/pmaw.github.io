@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> PMAW: The Programming Models and Algorithms Workshop </title>
+<style>
+.center {
+  text-align: center
+}
+</style>
+</head>
+<body>
+
+<font face = "Verdana" color = "blue"> 
+<h1> 
+<p class="center">
+PMAW: The Programming Models and Algorithms Workshop 
+</p>
+</h1>
+<h2> 
+<p class="center">
+Held in Conjunction with IPDPS'18 
+</h2>
+</p>
+</font>
+
+<h3>
+<p class="center">
+<a href="#section1">Workshop Overview</a>&nbsp;&nbsp;
+<a href="#section2">Workshop Scope</a>&nbsp;&nbsp;
+<a href="#section3">Workshop Organization</a>&nbsp;&nbsp;
+<a href="#section4">Important Dates</a>&nbsp;&nbsp;
+<a href="#section5">Submission</a>&nbsp;&nbsp;
+<a href="#section6">Proceedings</a>&nbsp;&nbsp;
+<a href="#section7">More Information</a>
+</p>
+</h3>
+
+<section>
+<font face = "Courier" color = "purple"> 
+<h3 id="section1"> Workshop Overview </h3>
+<h5>
+<p>
+<font face = "Courier" color = "black"> 
+Programming models are widespread, and have gained vast popularity due to a
+variety of optimization mechanisms and abstractions, their transparency and
+other runtime features. Examples of these features are automatic accelerator
+offloading, directive-based compiler optimizations and parallelization,
+integration into high-level programming languages, locality enhancements, work
+stealing and pushing, overlapping communication and computation, providing a
+wide range of dynamic scheduling techniques, scaling and enabling the execution
+of large scale applications for distributed computing, leveraging and exposing
+interfaces that enable a fine grained control of underlying computing and
+network hardware, among many other features. Despite this long list of major
+advancements, there still exists a wide gap between the algorithmic design,
+specification and implementation, and these programming models.
+</p>
+
+<p>
+To exacerbate the problem at hand, it is widely known that to achieve the
+expected levels of performance and power cap of Exascale and future computing
+eras, tremendous efforts will have to be invested and will require the
+convergence of several traditionally disjoint fields.  Programming models
+excel at raising the level of abstraction from a concrete target platform,
+architecture or even the underlying network. In other words, their primary role
+is to hide the complexities of some lower level of the hardware and software
+stack, thereby greatly simplifying and speeding the development process of
+scientific software.
+</p>
+
+<p>
+Complicating even more the matter, new technologies such as upcoming
+programming models and parallel runtimes are not fully exploited. To a large
+extent, this is caused by the unfamiliarity of domain experts and computational
+scientists with new runtimes and software developments, or conversely, because
+of the lack of knowledge of the runtime or compiler expert with the fundamental
+properties of a computational algorithm. Moreover, simple mechanical porting of
+traditional and classic algorithms, many of which were devised 40 or more years
+ago, considered much more generic and abstract models such as the P-RAM model,
+the Bulk-Synchronous Parallel (BSP) model, LogP, or even
+the traditional von Neumann model. More precisely, this process has been
+target agnostic, and did not envision any specific hardware or runtime. This
+approach often results in suboptimal performance, loses important information
+in translation or incorrectly exploits the algorithmic intrinsics.
+</p>
+</h5>
+</section>
+<hr>
+<hr>
+
+<section>
+<font face = "Courier" color = "purple"> 
+<h3 id="section2"> Workshop Scope and Topics of Interest</h3>
+<font face = "Courier" color = "black"> 
+<h5>
+<p>
+The purpose of this workshop is to bring together experts of different areas to
+bridge the gap between programming models and algorithms in general. The
+ultimate goal is to foster the interdisciplinary relationships among domain
+scientists, and compiler, language and runtime (CLR) experts in order to
+re-design and rethink the next generation of algorithms that will be used
+during the forthcoming decades. Therefore, the intended audience and
+participants of the proposed workshop involves experts, practitioners,
+students, professors and researchers of the mentioned fields, of the broader
+computer science, applied mathematics and computational science fields.  In the
+shorter term, the objective of this workshop is to enable and retarget core
+algorithmic building blocks that leverage cutting-edge data-flow, task and
+data-parallel runtimes, and gradually promote the absorption of undeniable
+performance, energy and other execution properties that an algorithm should
+embody in order to fully exploit future hardware and software computing
+infrastructure.
+</p>
+<p>
+We welcome ongoing and preliminary work, experience reports showing a negative
+result or a gap between the two communities. In general, PMAW topics lie 
+between fields of  domain scientists and CLR experts. For instance, domain experts
+who are attempting to map their application to some specific platform or
+runtime, as well as CLR experts wishing to identify and learn about strong and
+impactful applications and benchmarks suitable for some new software technology.
+</p>
+<p>
+All papers must be original and not simultaneously submitted to another journal or conference.
+The following is a non-exhaustive list of topics of interest:
+<ul>
+  <li>Implementation of algorithms using data-flow models and runtimes</li>
+  <li>Domain specific languages, compilers and tools for data-flow, data and task parallelism</li>
+  <li>New parallel runtime features that facilitate algorithmic description</li>
+  <li>Rethinking of classical algorithms that incorporate parallelism, energy and other performance properties</li>
+  <li>Communication minimization schemes</li>
+  <li>Network aware computing</li>
+  <li>Locality and Communication abstractions for algorithmic specification</li>
+  <li>Orchestrating runtimes and heterogeneous runtime scheduling</li>
+  <li>Experiences in porting or implementing scientific frameworks over one or more programming models</li>
+  <li>A negative result demonstrating general poor support for some application or class of computation and potential solutions or workaround</li>
+  <li>Application and runtime demos</li>
+</ul>
+</p>
+</h5>
+</section>
+<hr>
+<hr>
+
+
+<section>
+<font face = "Courier" color = "purple"> 
+<h3 id="section3">  Organizers and Committee </h3>
+<font face = "Courier" color = "black"> 
+<h5>
+<p>
+Organizers:
+<ul>
+<li>Martin Kong (Assistant Computational Scientist, Brookhaven National Laboratory, USA) </li>
+<li> Zoran Budimlic (Senior Research Scientist, Rice University, USA) </li>
+</ul>
+Program Committee:
+<ul>
+<li>Albert Cohen (Professor, Inria, France) </li>
+<li>Barbara Chapman (Professor, Stony Brook University, USA) </li>
+<li>Jun Shirako (Research Scientist, Georgia Institute of Technology, USA) </li>
+<li>Meifeng Lin (Associate Scientist, Brookhaven National Laboratory, USA) </li>
+<li>Kamer Kaya (Assistant Professor, Sabanci University, Turkey) </li>
+<li>Erdem Sariyuce (Assistant Professor, SUNY University at Buffalo, USA) </li>
+<li>Antoniu Pop (Assistant Professor, University of Manchester, UK) </li>
+<li>Didem Unat (Assistant Professor, Koc ̧ University, Turkey) </li>
+<li>Oscar Hernandez (Oakridge National Laboratory, USA)</li>
+<li>George Slota (Assistant Professor, Rensselaer Polytechnic Institute, USA) </li>
+<li>Mehmet Deveci (Post-doctoral Researcher, Sandia National Laboraties, USA) </li>
+</ul>
+</p>
+</h5>
+</section>
+<hr>
+<hr>
+
+
+<section>
+<font face = "Courier" color = "purple"> 
+<h3 id="section4">  Important Dates </h3>
+<font face = "Courier" color = "black"> 
+<h5>
+<p>
+The main dates for this workshop will be the following:
+<ul>
+<li>Paper submission start: November 6, 2017</li>
+<li>Abstract due: February 9, 2018</li>
+<li>Paper submission due : February 16, 2018</li>
+<li>Notification of acceptance : April 2, 2018</li>
+<li>Camera ready papers: April 23, 2018</li>
+<li>Workshop date: May 25, 2018 </li>
+</ul>
+</h5>
+</p>
+</section>
+<hr>
+<hr>
+
+<section>
+<font face = "Courier" color = "purple"> 
+<h3 id="section5"> Submission </h3>
+<font face = "Courier" color = "black"> 
+<h5>
+<p>
+<ul>
+<li>Please submit your paper here: TBD</li>
+<li>Papers must use the ACM standard LATEX or Word templates. </li>
+<li>As this workshop encourages works-in-progress, papers should be 5-7 pages
+    in length, including references and appendices</li>
+</ul>
+
+</p>
+</h5>
+</section>
+<hr>
+<hr>
+
+
+<section>
+<font face = "Courier" color = "purple"> 
+<h3 id="section6"> Proceedings </h3>
+<font face = "Courier" color = "black"> 
+<h5>
+<p>
+PMAW will have online proceedings, so as to allow authors to re-submit their work
+to other venues and using the feedback provided in the workshop.
+</p>
+</h5>
+</section>
+<hr>
+<hr>
+
+
+<section>
+<font face = "Courier" color = "purple"> 
+<h3 id="section7"> More Information</h3>
+<font face = "Courier" color = "black"> 
+<h5>
+<p>
+For more information regarding this workshop, please contact 
+<a href="mailto:mkong@bnl.gov?Subject=IPDPS%20PMAW" target="_top">Martin Kong</a>
+</p>
+</h5>
+</section>
+<hr>
+<hr>
+
+</font><br />
+</body>
+</html>
