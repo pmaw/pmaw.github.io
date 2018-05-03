@@ -68,12 +68,6 @@ scientific software.
 </p>
 
 <p>
-Speaker: Hal Finkel (Argonne National Laboratory)
-</p>
-<p>
-Title: Parallel Programming Models and Compiler Optimizations
-</p>
-<p>
 Complicating even more the matter, new technologies such as upcoming
 programming models and parallel runtimes are not fully exploited. To a large
 extent, this is caused by the unfamiliarity of domain experts and computational
@@ -99,9 +93,22 @@ in translation or incorrectly exploits the algorithmic intrinsics.
 <h5>
 <p>
 <font face = "Courier" color = "black"> 
+Speaker: Hal Finkel (Argonne National Laboratory)
+</p>
 <p>
-
+Title: Parallel Programming Models and Compiler Optimizations
+</p>
 <p>
+Parallel programming models tend to be designed in one of two categories:
+Either they're completely compiler driven (e.g., OpenMP) or they're library
+solutions opaque to the compiler. In this talk, we'll explore potential middle
+ground by looking at recent work on optimizing parallelism constructs in LLVM,
+recent advances in parallel programming models in C++, and how the two might
+fit together. In the future, parallel programming models that are easy to use,
+amenable to abstraction, and understood by the compiler's optimizer should be
+possible to create. As we approach the exascale era and hardware diversifies,
+this might be the only high-productivity option. 
+</p>
 
 </h5>
 </section>
